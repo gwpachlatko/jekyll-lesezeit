@@ -34,4 +34,5 @@ Avg. estimated reading time: 180 wds/min
 
 License: WTFPL
 
-[Live Demo](https://gwpachlatko.github.io/emwd/werkzeuge/2020/02/15/jekyll-lesezeit-wortanzahl.html)
+[Live Demo “case”, German](https://gwpachlatko.github.io/emwd/werkzeuge/2020/02/15/jekyll-lesezeit-wortanzahl.html)\
+[Live Demo “if”, English](https://gwpachlatko.github.io/anything-goes/software/2018/04/01/easy-guide-linux-beginner-distros.html)
