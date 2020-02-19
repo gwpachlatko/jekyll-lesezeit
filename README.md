@@ -8,7 +8,7 @@ Visualizza il numero di parole e il tempo (stimato) di lettura di un articolo in
 Muestra el número de palabras y el tiempo (estimado) de lectura de un artículo en Jekyll/\
 Exibe a contagem de palavras e o tempo de leitura (estimado) de um artigo em Jekyll
 
-## Configuration
+## Configuration Site Language
 
 In `_config.yml`:
 
@@ -20,7 +20,12 @@ In `_config.yml`:
 `lang: es` Display: Español\
 `lang: pt` Dispaly: Português
 
-## How–To
+## Configuraton Page Language
+
+If page language happens to be different from site language, set
+language individually in “frontmatter” of page.
+
+## Deployment
 
 Copy `lesezeit-if.html` or `lesezeit-case.html` to `/_includes/`
 
@@ -28,11 +33,19 @@ Open: `/_layouts/post.html`
 
 Paste and save: `{%- include lesezeit-if.html -%}` or `{%- include lesezeit-case.html -%}`
 
-(Note: Use whichever file you prefer; both give identical results.)
+## Notes 
+
+Use whichever file you prefer; both give identical results.
 
 Avg. estimated reading time: 180 wds/min
 
 License: WTFPL
 
-[Live Demo “case”, German](https://gwpachlatko.github.io/emwd/werkzeuge/2020/02/15/jekyll-lesezeit-wortanzahl.html)\
-[Live Demo “if”, English](https://gwpachlatko.github.io/anything-goes/software/2018/04/01/easy-guide-linux-beginner-distros.html)
+See also Live Demos:
+
+[Live Demo, German](https://gwpachlatko.github.io/emwd/fehlersuche/2020/02/19/testing-lesezeit-german.html)\
+[Live Demo, English](https://gwpachlatko.github.io/emwd/fehlersuche/2020/02/19/testing-lesezeit-english.html)\
+[Live Demo, French](https://gwpachlatko.github.io/emwd/fehlersuche/2020/02/19/testing-lesezeit-french.html)\
+[Live Demo, Italian](https://gwpachlatko.github.io/emwd/fehlersuche/2020/02/19/testing-lesezeit-italian.html)\
+[Live Demo, Spanish](https://gwpachlatko.github.io/emwd/fehlersuche/2020/02/19/testing-lesezeit-spanish.html)\
+[Live Demo, Portuguese](https://gwpachlatko.github.io/emwd/fehlersuche/2020/02/19/testing-lesezeit-portuguese.html)\
