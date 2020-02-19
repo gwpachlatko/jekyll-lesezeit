@@ -33,7 +33,7 @@ Open: `/_layouts/post.html`
 
 Paste and save: `{%- include lesezeit-if.html -%}` or `{%- include lesezeit-case.html -%}`
 
-## Notes 
+## Notes
 
 Use whichever file you prefer; both give identical results.
 
@@ -48,4 +48,4 @@ See also Live Demos:
 [Live Demo, French](https://gwpachlatko.github.io/emwd/fehlersuche/2020/02/19/testing-lesezeit-french.html)\
 [Live Demo, Italian](https://gwpachlatko.github.io/emwd/fehlersuche/2020/02/19/testing-lesezeit-italian.html)\
 [Live Demo, Spanish](https://gwpachlatko.github.io/emwd/fehlersuche/2020/02/19/testing-lesezeit-spanish.html)\
-[Live Demo, Portuguese](https://gwpachlatko.github.io/emwd/fehlersuche/2020/02/19/testing-lesezeit-portuguese.html)\
+[Live Demo, Portuguese](https://gwpachlatko.github.io/emwd/fehlersuche/2020/02/19/testing-lesezeit-portuguese.html)
