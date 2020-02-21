@@ -1,0 +1,18 @@
+{% assign s_lang = site.lang %}
+
+{% case s_lang %}
+  {% when 'en' %}
+    {% assign read_more = "Read more: " %}
+  {% when 'fr' %}
+    {% assign read_more = "Lire la suite: " %}
+  {% when 'it' %}
+    {% assign read_more = "leggi di più: " %}
+  {% when 'es' %}
+    {% assign read_more = "Lea mas: " %}
+  {% when 'pt' %}
+    {% assign read_more = "Leia mais: " %}
+  {% else %}
+    {% assign read_more = "Weiterlesen: " %}
+{% endcase %}
+
+<p>{{ read_more }}<a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></p>
