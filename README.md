@@ -1,6 +1,6 @@
 # Jekyll Lesezeit (ML)
 
-Displays the word count and (estimated) reading time of an article in Jekyll/\
+Displays the word count and (estimated) reading time of an article in Jekyll\
 Available languages: Deutsch/English/Français/Italiano/Español/Português/čeština
 
 ## Configuration Site Language
