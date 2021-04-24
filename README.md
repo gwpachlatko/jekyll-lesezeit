@@ -13,7 +13,7 @@ In `_config.yml`:
 `lang: fr` Display: Français\
 `lang: it` Display: Italiano\
 `lang: es` Display: Español\
-`lang: pt` Dispaly: Português
+`lang: pt` Dispaly: Português\
 `lang: cz` Dispaly: čeština
 
 ## Configuraton Page Language
@@ -43,5 +43,5 @@ See also Live Demos:
 [Live Demo, Italian](https://gwpachlatko.github.io/emwd/fehlersuche/2020/02/19/testing-lesezeit-italian.html)\
 [Live Demo, Spanish](https://gwpachlatko.github.io/emwd/fehlersuche/2020/02/19/testing-lesezeit-spanish.html)\
 [Live Demo, Portuguese](https://gwpachlatko.github.io/emwd/fehlersuche/2020/02/19/testing-lesezeit-portuguese.html)\
-[Live Demo, Portuguese](https://gwpachlatko.github.io/emwd/fehlersuche/2020/02/19/testing-lesezeit-czech.html)\
+[Live Demo, Czech](https://gwpachlatko.github.io/emwd/fehlersuche/2020/12/04/testing-lesezeit-czech.html)\
 [Detailed information concerning other files in this repository in English](https://gwpachlatko.github.io/anything-goes/software/2020/02/21/jekyll-lesezeit-howto.html)
