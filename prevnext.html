@@ -1,33 +1,66 @@
-<div class="prevnext">
-  {% assign p_lang = page.lang %}
+
+{% assign s_lang = site.lang %}
+{% assign p_lang = page.lang %}
+
+{% if p_lang != s_lang %}
 
 {% case p_lang %}
-  {% when 'en' %}
+  {% when 'de' %}
+    {% assign prev = "Vorheriger Beitrag" %}
+    {% assign next = "N&auml;chster Beitrag" %}
+  {% when 'fr' %}
+    {% assign prev = "Précédent" %}
+    {% assign next = "Suivant" %}
+  {% when 'it' %}
+    {% assign prev = "Precedente" %}
+    {% assign next = "Seguente" %}
+  {% when 'es' %}
+    {% assign prev = "Anterior" %}
+    {% assign next = "Siguiente" %}
+  {% when 'pt' %}
+    {% assign prev = "Anterior" %}
+    {% assign next = "Siguiente" %}
+  {% when 'cz' %}
+    {% assign prev = "Předchozí" %}
+    {% assign next = "Další" %}
+  {% else %}
     {% assign prev = "Previous" %}
     {% assign next = "Next" %}
-    {% when 'fr' %}
-      {% assign prev = "Précédent" %}
-      {% assign next = "Suivant" %}
-    {% when 'it' %}
-      {% assign prev = "Precedente" %}
-      {% assign next = "Seguente" %}
-      {% when 'es' %}
-        {% assign prev = "Anterior" %}
-        {% assign next = "Siguiente" %}
-    {% when 'pt' %}
-      {% assign prev = "Anterior" %}
-      {% assign next = "Siguiente" %}
-  {% else %}
-    {% assign prev = "Vorheriger" %}
-    {% assign next = "N&auml;chster" %}
 {% endcase %}
 
-  <p>
+{% else %}
+
+{% case s_lang %}
+  {% when 'de' %}
+    {% assign prev = "Älter" %}
+    {% assign next = "Neuer" %}
+  {% when 'fr' %}
+    {% assign prev = "Précédent" %}
+    {% assign next = "Suivant" %}
+  {% when 'it' %}
+    {% assign prev = "Precedente" %}
+    {% assign next = "Seguente" %}
+  {% when 'es' %}
+    {% assign prev = "Anterior" %}
+    {% assign next = "Siguiente" %}
+  {% when 'pt' %}
+    {% assign prev = "Anterior" %}
+    {% assign next = "Siguiente" %}
+  {% when 'cz' %}
+    {% assign prev = "Předchozí" %}
+    {% assign next = "Další" %}
+  {% else %}
+    {% assign prev = "Previous" %}
+    {% assign next = "Next" %}
+{% endcase %}
+
+{% endif %}
+
+  <p class="prevnext">
   {% if page.previous.url %}
-    <a title="{{page.previous.title}}" href="{{site.baseurl}}{{page.previous.url}}">&laquo; {{ prev }}</a>
+    <a class="prev" title="{{ page.previous.lang | capitalize }}: {{page.previous.title}}" href="{{site.baseurl}}{{page.previous.url}}">&#27; {{ prev }}</a>
   {% endif %}
   {% if page.next.url %}
-    <a title="{{page.next.title}}" href="{{site.baseurl}}{{page.next.url}}">{{ next }} &raquo;</a>
+    <a class="next" title="{{ page.next.lang | capitalize }}: {{page.next.title}}" href="{{site.baseurl}}{{page.next.url}}">{{ next }} &#26;</a>
   {% endif %}
   </p>
-</div>

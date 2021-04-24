@@ -1,13 +1,13 @@
 # Strings for dates
 # language Portuguese
 abbreviated_weekday:
+  - <abbr>Dom.</abbr>
   - segunda
   - terça
   - quarta
   - quinta
   - sexta
   - <abbr>Sab.</abbr>
-  - <abbr>Dom.</abbr>
 full_weekday:
   - domingo
   - segunda
