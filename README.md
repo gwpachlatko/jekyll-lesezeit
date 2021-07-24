@@ -8,7 +8,7 @@ Available languages: Deutsch/English/Français/Italiano/Español/Português/če�
 In `_config.yml`:
 
 `lang: de` Display: Deutsch (default)\
-`lang: __` Display: English (fallback; if empty or language not listed)\
+`lang:   ` Display: English (fallback; if empty or language not listed)\
 `lang: en` Display: English\
 `lang: fr` Display: Français\
 `lang: it` Display: Italiano\
@@ -16,7 +16,7 @@ In `_config.yml`:
 `lang: pt` Dispaly: Português\
 `lang: cz` Dispaly: čeština
 
-## Configuraton Page Language
+## Configuration Page Language
 
 If page language happens to be different from site language, set
 language individually in “frontmatter” of page.
