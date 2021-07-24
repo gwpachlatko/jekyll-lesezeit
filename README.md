@@ -8,7 +8,7 @@ Available languages: Deutsch/English/Français/Italiano/Español/Português/če�
 In `_config.yml`:
 
 `lang: de` Display: Deutsch (default)\
-`lang:   ` Display: English (fallback; if empty or language not listed)\
+`lang:    ` Display: English (fallback; if empty or language not listed)\
 `lang: en` Display: English\
 `lang: fr` Display: Français\
 `lang: it` Display: Italiano\
